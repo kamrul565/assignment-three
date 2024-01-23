@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script>
         tailwind.config = {
             theme: {
@@ -18,6 +21,7 @@
                     colors: {
                         clifford: '#da373d',
                         'btn-color': '#FF4240',
+
                     }
                 }
             }
@@ -222,22 +226,256 @@
 
         </section>
 
-        <section>
-            <div class="hero  bg-red-400">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-                        class="max-w-sm rounded-lg shadow-2xl" />
-                    <div>
-                        <h1 class="text-5xl font-bold">Box Office News!</h1>
-                        <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
+
+
+        <section class="container mx-auto mt-16 lg:mt-24">
+            <div class="border-dotted border-t-4 border-b-4 space-y-4 py-8 flex flex-col items-center">
+
+                <h1 class="text-2xl lg:text-4xl font-extrabold text-center">Our New Products</h1>
+                <p class="text-center lg:w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+
+            </div>
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="flex flex-col lg:flex-row items-center gap-5 border-2 border-[#1313181A] p-6 rounded-2xl">
+                    <div class="w-full lg:w-auto">
+                        <img src="./Images/jacket.png" class="w-full rounded-lg object-cover" />
+                    </div>
+                    <div class="space-y-3">
+                        <!-- text-part -->
+                        <div class="flex gap-4">
+                            <div class="flex gap-1">
+                                <span><i class="fa-solid fa-star text-amber-500"></i></span>
+                                <p class="text-[#13131880] font-medium">5.0</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-eye text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">20</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-heart text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">200</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-extrabold">World Cup Flags Football</h3>
+                            <p class="text-[#13131880] font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. </p>
+                            <div class="flex gap-5">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex gap-1">
+                                    <span><i class="fa-solid fa-cart-shopping text-[#13131880]"></i></span>
+                                    <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second -->
+                <div class="flex flex-col lg:flex-row items-center gap-5 border-2 border-[#1313181A] p-6 rounded-2xl">
+                    <div class="w-full lg:w-auto">
+                        <img src="./Images/eagle.png" class="w-full rounded-lg object-cover" />
+                    </div>
+                    <div class="space-y-3">
+                        <!-- text-part -->
+                        <div class="flex gap-4">
+                            <div class="flex gap-1">
+                                <span><i class="fa-solid fa-star text-amber-500"></i></span>
+                                <p class="text-[#13131880] font-medium">5.0</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-eye text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">20</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-heart text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">200</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-extrabold">World Cup Flags Football</h3>
+                            <p class="text-[#13131880] font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. </p>
+                            <div class="flex gap-5">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex gap-1">
+                                    <span><i class="fa-solid fa-cart-shopping text-[#13131880]"></i></span>
+                                    <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third -->
+                <div class="flex flex-col lg:flex-row items-center gap-5 border-2 border-[#1313181A] p-6 rounded-2xl">
+                    <div class="w-full lg:w-auto">
+                        <img src="./Images/cap.png" class="w-full rounded-lg object-cover" />
+                    </div>
+                    <div class="space-y-3">
+                        <!-- text-part -->
+                        <div class="flex gap-4">
+                            <div class="flex gap-1">
+                                <span><i class="fa-solid fa-star text-amber-500"></i></span>
+                                <p class="text-[#13131880] font-medium">5.0</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-eye text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">20</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-heart text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">200</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-extrabold">Cap For Hockeys</h3>
+                            <p class="text-[#13131880] font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. </p>
+                            <div class="flex gap-5">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex gap-1">
+                                    <span><i class="fa-solid fa-cart-shopping text-[#13131880]"></i></span>
+                                    <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fourth -->
+                <div class="flex flex-col lg:flex-row items-center gap-5 border-2 border-[#1313181A] p-6 rounded-2xl">
+                    <div class="w-full lg:w-auto">
+                        <img src="./Images/jersey.png" class="w-full rounded-lg object-cover" />
+                    </div>
+                    <div class="space-y-3">
+                        <!-- text-part -->
+                        <div class="flex gap-4">
+                            <div class="flex gap-1">
+                                <span><i class="fa-solid fa-star text-amber-500"></i></span>
+                                <p class="text-[#13131880] font-medium">5.0</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-eye text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">20</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-heart text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">200</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-extrabold">World Cup Flags Football</h3>
+                            <p class="text-[#13131880] font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. </p>
+                            <div class="flex gap-5">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex gap-1">
+                                    <span><i class="fa-solid fa-cart-shopping text-[#13131880]"></i></span>
+                                    <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fifth  -->
+                <div class="flex flex-col lg:flex-row items-center gap-5 border-2 border-[#1313181A] p-6 rounded-2xl">
+                    <div class="w-full lg:w-auto">
+                        <img src="./Images/helmet.png" class="w-full rounded-lg object-cover" />
+                    </div>
+                    <div class="space-y-3">
+                        <!-- text-part -->
+                        <div class="flex gap-4">
+                            <div class="flex gap-1">
+                                <span><i class="fa-solid fa-star text-amber-500"></i></span>
+                                <p class="text-[#13131880] font-medium">5.0</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-eye text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">20</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-heart text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">200</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-extrabold">World Cup Flags Football</h3>
+                            <p class="text-[#13131880] font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. </p>
+                            <div class="flex gap-5">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex gap-1">
+                                    <span><i class="fa-solid fa-cart-shopping text-[#13131880]"></i></span>
+                                    <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- six  -->
+                <div class="flex flex-col lg:flex-row items-center gap-5 border-2 border-[#1313181A] p-6 rounded-2xl">
+                    <div class="w-full lg:w-auto">
+                        <img src="./Images/football.png" class="w-full rounded-lg object-cover" />
+                    </div>
+                    <div class="space-y-3">
+                        <!-- text-part -->
+                        <div class="flex gap-4">
+                            <div class="flex gap-1">
+                                <span><i class="fa-solid fa-star text-amber-500"></i></span>
+                                <p class="text-[#13131880] font-medium">5.0</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-eye text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">20</p>
+                            </div>
+                            <div class="flex gap-1">
+                                <span><i class="fa-regular fa-heart text-[#13131880] font-medium"></i></span>
+                                <p class="text-[#13131880] font-medium">200</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h3 class="text-xl font-extrabold">World Cup Flags Football</h3>
+                            <p class="text-[#13131880] font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. </p>
+                            <div class="flex gap-5">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex gap-1">
+                                    <span><i class="fa-solid fa-cart-shopping text-[#13131880]"></i></span>
+                                    <p class="text-[#13131880] font-medium">Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section class="container mx-auto mt-16 lg:mt-24">
+            <div class="border-dotted border-t-4 border-b-4 space-y-4 py-8 flex flex-col items-center">
 
+                <h1 class="text-2xl lg:text-4xl font-extrabold text-center">Our New Products</h1>
+                <p class="text-center lg:w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+
+            </div>
+            <div class="mt-12">
+                
+
+            
+            </div>
+        </section>
 
     </main>
 </body>
